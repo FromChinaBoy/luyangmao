@@ -46,7 +46,7 @@ func main()  {
 					isFinish = 1
 				}
 			}
-			time.Sleep(time.Duration(60)*time.Second)
+			time.Sleep(time.Duration(65)*time.Second)
 
 		}
 

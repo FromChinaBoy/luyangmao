@@ -11,7 +11,7 @@ type Red6Start struct {
 	Success bool `json:"success"`
 	ErrorCode string `json:"error_code"`
 	Message string `json:"message"`
-	Items Red5Model `json:"items"`
+	Items Red6Model `json:"items"`
 }
 
 type Red6Model struct {
