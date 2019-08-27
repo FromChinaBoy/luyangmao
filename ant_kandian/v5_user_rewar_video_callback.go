@@ -48,7 +48,7 @@ func main()  {
 			if(r.Items.PlayNum == 40){
 				isFinish = 1
 			}
-			time.Sleep(time.Duration(60)*time.Second)
+			time.Sleep(time.Duration(65)*time.Second)
 		}
 
 		if(isFinish == 1){

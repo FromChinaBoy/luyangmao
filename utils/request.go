@@ -125,6 +125,7 @@ func LuyangmaoRequest(host string, path string ,key string,requestType int) []by
 
 	if err != nil {
 		fmt.Println(err.Error())
+		return nil
 	}
 	defer resp.Body.Close()
 	body, err := ioutil.ReadAll(resp.Body)
